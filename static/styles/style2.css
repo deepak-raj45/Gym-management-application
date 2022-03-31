@@ -1,0 +1,110 @@
+*{
+    margin:0; padding:0; box-sizing:border-box
+}
+.header
+{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Photos/basic.jpg);
+background-size:100%;
+background-position:center;
+position:relative;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    background-color:#fefefe;
+}
+.content{
+    width: 50%;
+    color:#fff;
+    position: relative;
+    top:50%;
+    left:30%;
+    text-align:center;
+}
+.content h1{
+    display:inline-block;
+    font-size: 45px;
+    color:orangered;
+
+}
+.content p{
+    display:inline-block;
+    margin:10px 0 40px;
+    font-size: 20px;
+    color:skyblue;
+
+
+}
+.workouts{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis:31%;
+    background:#fff3f3;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0;
+
+}
+.exercise
+{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+
+}
+h4{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.h5{
+    font-size: 26px;
+    font-weight:300 ;
+    text-align:justify;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px; 
+    text-align:left; 
+}
+.li
+{
+    font-size: 20px;
+    font-weight:300;
+    text-align: justify;
+
+}

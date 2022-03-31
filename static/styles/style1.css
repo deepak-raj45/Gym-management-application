@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header
+{
+min-height: 100vh;
+width: 100%;
+background: radial-gradient(#ffffff, #99e699);
+background-size:100%;
+background-position:center;
+position:relative;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.title {
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: left;
+}
+.title img{
+    width:100px;
+}
+
+.content{
+    width: 50%;
+    color:#fff;
+    position: relative;
+    top:50%;
+    left:30%;
+    text-align:center;
+}
+.content h1{
+    display:inline-block;
+    font-size: 45px;
+    color:rgb(5, 5, 5);
+
+}
+.content p{
+    display:inline-block;
+    margin:10px 0 40px;
+    font-size: 20px;
+    color:rgb(13, 13, 14);
+
+
+}
+.bas-btn{
+    display:inline-block;
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    border:1px white;
+    border-radius:35px;
+    padding:12px 34px;
+    font-size:18px;
+    background: transparent;
+    position:relative; 
+    cursor:pointer;
+    
+        
+}
+.bas-btn:hover
+{
+    color: white;
+    border:1px solid #595c54;
+    background:#585a57;
+    transition:1s;
+
+    
+
+}
+
+.mem-btn{
+    display:inline-block;
+    text-decoration: none;
+    color:rgb(15, 15, 15);
+    border:1px white;
+    padding:12px 34px;
+    border-radius: 35px;
+    font-size:18px;
+    background: transparent;
+    position:relative; 
+    cursor:pointer;      
+}
+.mem-btn:hover
+{
+    border:1px solid ;
+    color:white;
+    background:#585a57;
+    transition:1s;
+
+}
+.workouts{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis:31%;
+    background: #848684;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    transition:transform 0.5s;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0;
+
+}
+.course-col:hover{
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    transform: translateY(-15px);
+
+}

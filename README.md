@@ -1,2 +1,2 @@
-# Gym-management-application
-This is a full stack Gym management application.
+# GYM-Management-web-application-
+Created a full stack  web application for gym management system

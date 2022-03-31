@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>BMI CALCULATOR</title>
+    </head>
+    <body>
+        <br><br>
+        <h2>BMI CALCULATOR</h2>
+        <br><br>
+        <form action="http://127.0.0.1:5000/bmi" method="POST">
+            <input type="number" placeholder="weight" name ="weight">
+            <br><br>
+            <input type="number" placeholder="height" name ="height">
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+        <br>
+        <div>
+            {{ result }}
+        </div>
+    </body>
+</html>
